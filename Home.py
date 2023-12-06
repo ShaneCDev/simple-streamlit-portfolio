@@ -26,7 +26,7 @@ Below you can find some of the apps I have built using Python. Feel free to cont
 st.write(content2)
 
 
-col3, empty_col,col4 = st.columns([1.5, 0.5, 1.5])
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
 df = pd.read_csv("data.csv", sep=";")
 
